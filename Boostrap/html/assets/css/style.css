@@ -1,0 +1,31 @@
+.whitesmoke{background: whitesmoke;}
+/* .navbar-dark .navbar-nav .nav-link{color: yellow;} ceci c'est pôur changer la couleur de sections */
+/* .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {color: red} */
+/* border-bottom: 2px solid yellow */
+ @media screen and (max-width: 480px){
+    header + div {display:none;}}
+
+main{background: royalblue;
+min-height:100vh;}
+
+section{ background-color: black;
+min-height: 50vh;}
+
+/* .enfant{
+    flex: 1;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.parent{
+    display: none;
+    flex-direction: row;
+} */
+
+main>section:is(article, figure){min-height:500px ; overflow:hidden;
+}
+article> figure{
+    width: 50%;
+    margin: auto;}
+
+h1,h2{text-align: center;}
